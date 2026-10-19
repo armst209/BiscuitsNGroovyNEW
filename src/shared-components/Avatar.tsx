@@ -16,7 +16,6 @@ const Avatar = ({ src, name, className }: AvatarProps) => {
         className,
       )}>
       {src ? (
-        // Avatars come from Supabase storage as blob/remote URLs.
         // eslint-disable-next-line @next/next/no-img-element
         <img
           src={src}

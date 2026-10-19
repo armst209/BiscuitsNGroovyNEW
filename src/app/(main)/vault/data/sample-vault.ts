@@ -1,6 +1,6 @@
 /**
  * PLACEHOLDER DATA — every past drop. The original fetched these from the
- * old Express API (`/vault`); replace with a Supabase query.
+ * old Express API (`/vault`);
  */
 import bucketHats from '@public/assets/buckethats.webp';
 import crowd from '@public/assets/crowd.jpg';

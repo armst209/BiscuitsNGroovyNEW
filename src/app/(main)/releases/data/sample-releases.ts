@@ -1,5 +1,5 @@
 /**
- * PLACEHOLDER DATA — swap for real releases from Supabase once the catalogue
+ * PLACEHOLDER DATA
  * exists. Artwork reuses photography already in /public/assets.
  */
 import aboutStory from '@public/assets/about_story.webp';

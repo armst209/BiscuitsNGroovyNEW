@@ -1,8 +1,8 @@
 /**
- * PLACEHOLDER DATA — the signed-in user's library. Replace with a Supabase
+ * PLACEHOLDER DATA — the signed-in user's library.
  * query (e.g. a `library` table joined to releases) once purchases exist.
  */
-import { sampleReleases } from '@/features/releases/data/sample-releases';
+import { sampleReleases } from '@main/releases/data/sample-releases';
 import type { Release } from '@/types';
 
 export type CollectionRelease = Release & { isExpired: boolean };

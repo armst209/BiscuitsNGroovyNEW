@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import SectionHeader from '@shared-components/layout/SectionHeader';
-import vinylIcon from '@public/assets/vinyl_yellow.svg';
+import VinylIcon from '@public/assets/vinyl_yellow.svg';
 import {
   biscuitNameTile,
   biscuitParts,
@@ -15,7 +15,7 @@ const KnowYourCollection = () => (
       id="whats-a-biscuit"
       title="What's a Biscuit?"
       subtitle="It’s not just a delicious pastry. Our biscuits are new-age digital records. Much like a traditional record, each BnG biscuit has 3 parts:"
-      icon={vinylIcon}
+      icon={VinylIcon}
     />
     <div className="overflow-hidden rounded-lg bg-linear-to-br from-surface-highlight via-surface to-surface">
       <ol className="divide-y divide-edge">

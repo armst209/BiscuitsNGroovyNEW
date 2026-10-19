@@ -2,8 +2,8 @@
 
 import { useActionState } from 'react';
 import Link from 'next/link';
-import Button from '@/components/Button';
-import Input from '@/components/Input';
+import Button from '@shared-components/Button';
+import Input from '@shared-components/Input';
 import { signUpAction } from '../actions';
 import { initialAuthFormState } from '../form-state';
 import { useAuthFormEffects } from './useAuthFormEffects';

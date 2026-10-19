@@ -2,10 +2,10 @@
 
 import { useActionState, useEffect } from 'react';
 import toast from 'react-hot-toast';
-import Button from '@/components/Button';
-import Input from '@/components/Input';
-import SignOutButton from '@/components/navigation/SignOutButton';
-import { buttonVariants } from '@/components/Button';
+import Button from '@shared-components/Button';
+import Input from '@shared-components/Input';
+import SignOutButton from '@shared-components/navigation/SignOutButton';
+import { buttonVariants } from '@shared-components/Button';
 import { updateProfileAction, type ProfileFormState } from '../actions';
 import type { Profile } from '../schemas';
 import AvatarUpload from './AvatarUpload';

@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import IconList from '@/components/layout/IconList';
-import SectionHeader from '@/components/layout/SectionHeader';
+import IconList from '@shared-components/layout/IconList';
+import SectionHeader from '@shared-components/layout/SectionHeader';
 import speakerIcon from '@public/assets/speaker_yellow.svg';
 import vinylIcon from '@public/assets/vinyl_yellow.svg';
 import { blockchainBasics, flowPerks, nftsExplained } from '../data';

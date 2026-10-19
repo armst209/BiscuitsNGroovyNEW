@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { CalendarDays, ExternalLink, Music } from 'lucide-react';
-import Card from '@/components/Card';
-import Modal from '@/components/Modal';
-import { buttonVariants } from '@/components/Button';
+import Card from '@shared-components/Card';
+import Modal from '@shared-components/Modal';
+import { buttonVariants } from '@shared-components/Button';
 import { formatReleaseWindow, type VaultRelease } from '../data/sample-vault';
 
 const socialLabel = (url: string) =>

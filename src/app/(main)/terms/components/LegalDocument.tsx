@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import PageHeader from '@/components/layout/PageHeader';
+import PageHeader from '@shared-components/layout/PageHeader';
 import TermsNav from './TermsNav';
 
 type LegalDocumentProps = {

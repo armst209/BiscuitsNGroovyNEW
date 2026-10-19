@@ -4,8 +4,8 @@ import { useState } from 'react';
 import { z } from 'zod';
 import { CircleCheck } from 'lucide-react';
 import toast from 'react-hot-toast';
-import Button from '@/components/Button';
-import Input from '@/components/Input';
+import Button from '@shared-components/Button';
+import Input from '@shared-components/Input';
 import { cn } from '@/utils/cn';
 import { artistInquirySchema, type ArtistInquiry } from '../schemas';
 

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import signUpHeader from '@public/assets/vinyl_yellow.svg';
-import SignUpForm from '@/components/authentication/components/SignUpForm';
+import SignUpForm from '@shared-components/authentication/components/SignUpForm';
 
 export const metadata: Metadata = { title: 'Sign Up' };
 

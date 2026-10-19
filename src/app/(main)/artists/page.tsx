@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import IconList from '@/components/layout/IconList';
-import SectionHeader from '@/components/layout/SectionHeader';
-import { buttonVariants } from '@/components/Button';
-import TextLink from '@/components/TextLink';
+import IconList from '@shared-components/layout/IconList';
+import SectionHeader from '@shared-components/layout/SectionHeader';
+import { buttonVariants } from '@shared-components/Button';
+import TextLink from '@shared-components/TextLink';
 import ArtistInquiryForm from './components/ArtistInquiryForm';
 import addIcon from '@public/assets/add2_yellow.svg';
 import collectIcon from '@public/assets/collectshare.svg';

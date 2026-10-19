@@ -6,7 +6,7 @@ import logger from '@/utils/logger';
 import { signInSchema, signUpSchema } from './schemas';
 import type { AuthFormState } from './form-state';
 
-let error = { message: '', code: null, status: 200 };
+const error = { message: '', code: null, status: 200 };
 
 const readCredentials = (formData: FormData) => ({
   email: String(formData.get('email') ?? ''),

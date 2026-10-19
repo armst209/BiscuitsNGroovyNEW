@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import Modal from '@/components/Modal';
+import Modal from '@shared-components/Modal';
 import questionIcon from '@public/assets/help_question_yellow.svg';
 
 const ExpiredInfoButton = () => {

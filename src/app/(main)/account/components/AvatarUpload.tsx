@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Camera, LoaderCircle } from 'lucide-react';
 import toast from 'react-hot-toast';
-import Avatar from '@/components/Avatar';
+import Avatar from '@shared-components/Avatar';
 import { createSupabaseClient } from '@/lib/supabase/client';
 import logger from '@/utils/logger';
 import { updateAvatarAction } from '../actions';

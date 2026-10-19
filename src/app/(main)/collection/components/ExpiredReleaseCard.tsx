@@ -3,9 +3,9 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { ShieldCheck } from 'lucide-react';
-import Button from '@/components/Button';
-import Card from '@/components/Card';
-import Modal from '@/components/Modal';
+import Button from '@shared-components/Button';
+import Card from '@shared-components/Card';
+import Modal from '@shared-components/Modal';
 import type { CollectionRelease } from '../data/sample-collection';
 
 /** Expired biscuits can't be streamed, but their album-art NFT stays. */
